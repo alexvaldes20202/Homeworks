@@ -32,7 +32,7 @@ export const TodoApp = () => {
           <TodoList todos={todos} />
         </div>
         <div className="col-5">
-          <TodoForm onNewTodo={handleNewTodo} />
+          <TodoAdd onNewTodo={handleNewTodo} />
         </div>
       </div>
     </>

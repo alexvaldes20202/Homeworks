@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #232f3e;
+    color: #ffffff;
+  }
+  
+  .navbar__link {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .navbar__link:hover {
+    background-color: #4d6475;
+  }
+  
+  .navbar__link--active {
+    background-color: #4d6475;
+  }
+  
